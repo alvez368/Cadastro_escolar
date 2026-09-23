@@ -10,7 +10,14 @@ package br.com.senac.cadastroescola;
  */
 public class CadastroEscola {
 
+    
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        pessoas aluno = new Aluno("Laryssa");
+        pessoas Professor = new Professor("Alessandra");
+
+        aluno.apresentar();
+        Professor.apresentar();
     }
 }
+  

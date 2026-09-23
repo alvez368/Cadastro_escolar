@@ -9,5 +9,14 @@ package br.com.senac.cadastroescola;
  * @author laryssa62922516
  */
 public class pessoas {
-    
+   
+    protected String nome;
+
+    public pessoas(String nome) {
+        this.nome = nome;
+    }
+
+    public void apresentar() {
+        System.out.println("Olá, sou uma pessoa.");
+    }
 }

@@ -8,6 +8,16 @@ package br.com.senac.cadastroescola;
  *
  * @author laryssa62922516
  */
-public class Aluno {
-    
-}
+
+public class Aluno extends pessoas {
+
+    public Aluno(String nome) {
+        super(nome);
+    }
+
+    @Override
+    public void apresentar() {
+        System.out.println("Olá, sou o aluno. Me chamo " + nome);
+    }
+}   
+
